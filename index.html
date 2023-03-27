@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript DOM Example</title>
+  </head>
+  <body>
+    <p id="myParagraph">Hello, world!</p>
+    <button onclick="changeText()">Change Text</button>
+    
+    <script>
+      function changeText() {
+        var element = document.getElementById("myParagraph");
+        element.innerHTML = "Goodbye, world!";
+      }
+    </script>
+  </body>
+</html>
